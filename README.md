@@ -34,7 +34,7 @@ GET /product/:productId/similar
 
 #### Instalacion local
 
-git clone https://github.com/tu-usuario/backendDevTest-node.git
+git clone https://github.com/juanmatoro/backendDevTest-node.git
 cd backendDevTest-node
 npm install
 
