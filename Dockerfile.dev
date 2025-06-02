@@ -1,0 +1,18 @@
+# Dockerfile.dev
+FROM node:18
+
+WORKDIR /app
+
+# Copiar solo package.json para cacheo
+COPY package*.json ./
+RUN npm install
+
+# Instalar nodemon de forma global para desarrollo
+RUN npm install -g nodemon
+
+# Copiar el resto del proyecto
+COPY . .
+
+EXPOSE 5000
+
+CMD ["nodemon", "server.js"]

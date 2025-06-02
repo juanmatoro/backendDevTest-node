@@ -1,0 +1,21 @@
+# Node.js
+node_modules
+npm-debug.log
+.env
+.DS_Store
+
+# Tests y configuración
+tests
+jest.config.js
+
+# Git
+.git
+.gitignore
+
+# Docker cache files
+*.log
+
+# Editor/config files
+.vscode
+.idea
+*.swp
